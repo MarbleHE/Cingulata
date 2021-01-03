@@ -22,11 +22,6 @@ RUN git clone https://github.com/tfhe/tfhe /tfhe \
  && cd tfhe \
  && make
 
-# add user
-ARG uid=1000
-ARG uname=cingu
-RUN useradd -u $uid $uname
-
 USER $uname
 
 ENV build_dir=build_tfhe

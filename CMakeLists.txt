@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD 17)
 # compilation options
 option(BUILD_DOC "Build documentation" OFF)
 option(USE_BFV "Use B/FV implementation" OFF)
-set(TFHE_PATH "" CACHE PATH "TFHE library path")
+set(TFHE_PATH "/mnt/c/Code/tfhe")
 option(ENABLE_UNITTEST "Enable common interface unit tests using googletest" OFF)
 
 # do not initialize any of submodules
